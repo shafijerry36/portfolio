@@ -1,4 +1,5 @@
 {
+"homepage": "https://shafijerry36.github.io/portfolio",
     "name": "my-portfolio",
     "private": true,
     "version": "1.0.0",
@@ -8,7 +9,9 @@
         "build": "vite build",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "@vitejs/plugin-react": "latest",
